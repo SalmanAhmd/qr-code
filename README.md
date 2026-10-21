@@ -8,6 +8,9 @@ LinkCraft is a full-stack web application that combines two tools in one page:
 Everything works end to end: a short link is a real record in SQLite, opening it performs a real HTTP
 redirect, and a QR code can be generated for that short link.
 
+For a full technical and product walkthrough — request flows, state ownership, data model, threat
+model and extension guide — see [`docs/DEVELOPER_GUIDE.md`](docs/DEVELOPER_GUIDE.md).
+
 ---
 
 ## Table of contents
@@ -27,6 +30,7 @@ redirect, and a QR code can be generated for that short link.
 13. [Linting, formatting and type checking](#linting-formatting-and-type-checking)
 14. [Security notes](#security-notes)
 15. [Accessibility and performance](#accessibility-and-performance)
+16. [Developer guide](docs/DEVELOPER_GUIDE.md)
 
 ---
 
